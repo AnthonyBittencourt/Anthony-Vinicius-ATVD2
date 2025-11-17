@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "imagem": "/planeta.png",
+        "titulo": "Religião",
+        "texto": "A religião desempenha um papel complexo e central no conflito entre Israel e Palestina, atuando tanto como um fator de identidade e justificação para as reivindicações territoriais quanto como um elemento que intensifica as tensões."
+    },
+    {
+        "id": "2",
+        "imagem": "/territorio.png",
+        "titulo": "Territorio",
+        "texto": "A questão territorial é o ponto central e histórico do conflito entre Israel e Palestina. A disputa envolve o controle da terra entre o rio Jordão e o mar Mediterrâneo, com mudanças significativas nas fronteiras ao longo das décadas, resultando na redução progressiva do território palestino e na expansão do controle israelense. "
+    },
+    {
+        "id": "3",
+        "imagem": "/cinema.png",
+        "titulo": "Política",
+        "texto": "A questão política central na guerra entre Israel e Palestina é a disputa territorial histórica e o direito à autodeterminação de ambos os povos, com profundas divisões internas e influência de atores internacionais. "
+    }
+]
