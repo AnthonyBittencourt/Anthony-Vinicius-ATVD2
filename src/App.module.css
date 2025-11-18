@@ -48,7 +48,7 @@
     align-items: center;
 }
 
-.s2 img{
+.braco{
     position: absolute;
     rotate: 290deg;
     width: 100px;
@@ -56,25 +56,49 @@
     margin-top: -450px;
 }
 
+.wrapCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    animation: fromDown 5s ease-in-out;
+}
+
 .puxada{
     animation: fromUp 5s ease-in-out;
+    opacity: 0;
 }
 
 @keyframes fromUp{
     0%{
-        transform: opacity(1) translateY(0vh);
+        transform: translateY(0vh);
+        opacity: 1;
     }
     50%{
-        transform: translateY(80vh);
+        opacity: 1;
+        transform: translateY(100vh);
     }
     100%{
-        transform: translateY(0vh) opacity(0);
+        opacity: 0;
+        transform: translateY(0vh);
     }
 }
 
+    @keyframes fromDown{
+        0%{
+            transform: translateY();
+        }
+        50%{
+
+        }
+        100%{
+            
+        }
+    }
+
 .s3{
     height: 100vh;
-    
+
 }
 
 .s4{
@@ -91,20 +115,33 @@
 }
 
 .cardS4{
-    width: 381px;
+    width: 310px;
     height: 85vh;
     background-color: rgba(122, 239, 255, 0.089);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     padding-left: 10px;
     margin-top: 75px;
+    filter: grayscale(1);
+    transition: all 400ms ease-in-out;
 }
 
-.cardS$ :hover{
+.cardS4:hover{
+    cursor: pointer;
+    width: 600px;
+    filter: grayscale(0);
 
+}
+
+.acordoIMG{
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .s5{

@@ -2,6 +2,7 @@ import styles from'./App.module.css'
 import braçoImg from '../public/braco.png'
 import israelBd from '../public/bandeiraisrael.jpg'
 import palestinaBd from '../public/bandeirapalestina.jpg'
+import acordoQuebrado from '../public/AcordoQuebrado.png'
 
 import { useState, useEffect } from 'react'
 import { Card } from './components/card'
@@ -43,19 +44,18 @@ function App() {
       //causas
       <section id='s2' className={styles.s2}>
         <div className={styles.puxada}>
-          <img src={braçoImg} alt="braço" />
+          <img className={styles.braco} src={braçoImg} alt="braço" />
         </div>
         <div className={styles.wrapCards}>
               {dados.map((item) => {
                 return(
                   <div key={item.id}>
-                    <Card tec={item.nome} image={item.imagem} text={item.texto}/>
+                    <Card tec={item.titulo} image={item.imagem} text={item.texto}/>
                   </div>
                 )
               })}
          </div>
         </section>
-      </section> 
       //proposito de cada equipe
       <section id='s3' className={styles.s3}>
         <div>
@@ -66,10 +66,10 @@ function App() {
       <section id='s4' className={styles.s4}>
         <div className={styles.wrapcardss4}>
           <div className={styles.cardS4}>
-            
+            <img className={styles.acordoIMG} src={acordoQuebrado} alt='acordo'/>
           </div>
           <div className={styles.cardS4}>
-
+              
           </div>
           <div className={styles.cardS4}>
 
