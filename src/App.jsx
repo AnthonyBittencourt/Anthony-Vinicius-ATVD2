@@ -7,6 +7,7 @@ import bandeirasCard from '../public/bandeirasCard.jpg'
 import cidadeCard from '../public/cidadeCard.jpg'
 import propostaCard from '../public/propostaCard.jpg'
 import vitimasCard from '../public/vitimasCard.jpg'
+import passaroImg from '../public/passaro.jpg'
 import Economica from '../public/criseEconomica.avif'
 import Humanitaria from '../public/criseHumanitaria.webp'
 
@@ -33,7 +34,7 @@ function App() {
         <a href="#s3">Propósitos</a>
         <a href="#s4">Atual</a>
         <a href="#s5">Impactos</a>
-        <a href="#s6">Aaaa</a>
+        <a href="#s6">Fonte</a>
       </nav>
     <main>
       <section id="s1" className={styles.s1}>
@@ -61,28 +62,25 @@ function App() {
               })}
          </div>
         </section>
-      //proposito de cada equipe
+      
       <section id='s3' className={styles.s3}>
         <div className={styles.esquerda}>
           <h2>ISRAEL</h2>
-          <div className={styles.botaoIsrael}>
-            <p>Existência e Segurança: O principal objetivo de Israel é garantir sua existência como um Estado judeu soberano e independente e assegurar a segurança de seu povo diante das ameaças percebidas de grupos militantes e nações vizinhas.</p>
-            <p>Destruição de Capacidades Militantes: Em conflitos atuais, como o de Gaza, Israel visa especificamente destruir as capacidades militares e governamentais de grupos como o Hamas e a Jihad Islâmica, e recuperar reféns feitos por esses grupos.</p>
-            <p>Controle Territorial e Fronteiras: Israel busca manter o controle sobre Jerusalém Oriental (que reivindica como sua capital indivisível) e, para alguns setores políticos, manter ou expandir assentamentos na Cisjordânia, além de garantir fronteiras seguras e reconhecidas internacionalmente.</p>
-            <p>Reconhecimento: Israel exige o reconhecimento de seu direito de existir como um Estado judeu por parte dos palestinos e de todos os países árabes.</p>
+          <p>Existência e Segurança: O principal objetivo de Israel é garantir sua existência como um Estado judeu soberano e independente e assegurar a segurança de seu povo diante das ameaças percebidas de grupos militantes e nações vizinhas.</p>
+          <p>Destruição de Capacidades Militantes: Em conflitos atuais, como o de Gaza, Israel visa especificamente destruir as capacidades militares e governamentais de grupos como o Hamas e a Jihad Islâmica, e recuperar reféns feitos por esses grupos.</p>
+          <p>Controle Territorial e Fronteiras: Israel busca manter o controle sobre Jerusalém Oriental (que reivindica como sua capital indivisível) e, para alguns setores políticos, manter ou expandir assentamentos na Cisjordânia, além de garantir fronteiras seguras e reconhecidas internacionalmente.</p>
+          <p>Reconhecimento: Israel exige o reconhecimento de seu direito de existir como um Estado judeu por parte dos palestinos e de todos os países árabes.</p>
           </div>
-        </div>
         <div className={styles.direita}>
-          <h2>PALESTINA</h2>
-          <div className={styles.botaoPalestina}>
+          <h2>PALESTINA</h2>     
             <p>Autodeterminação e Estado Independente: O objetivo central da maioria dos palestinos é o estabelecimento de um Estado palestino independente e soberano na Cisjordânia, Faixa de Gaza e Jerusalém Oriental, com Jerusalém Oriental como sua capital.</p>
             <p>Fim da Ocupação: Eles buscam o fim da ocupação israelense dos territórios palestinos que começou em 1967 e a suspensão da construção de assentamentos israelenses.</p>
             <p>Direito de Retorno: Uma reivindicação crucial é o direito de retorno para os milhões de refugiados palestinos que fugiram ou foram expulsos de suas casas durante a guerra de 1948 (conhecida como Nakba) e conflitos subsequentes.</p>
             <p>Reconhecimento e Direitos Humanos: Os palestinos buscam reconhecimento internacional de seus direitos humanos e nacionais, incluindo o fim das restrições de movimento, bloqueios e outras medidas que afetam negativamente suas vidas diárias.</p>
-          </div>          
+                  
         </div>
       </section> 
-      //situação atual
+      
       <section id='s4' className={styles.s4}>
         <div className={styles.wrapcardss4}>
           <div className={styles.cardS4}>
@@ -109,29 +107,25 @@ function App() {
         </div>
       </section>  
 
-      //impactos
+      
       <section id='s5' className={styles.s5}>
+        <h1>Impactos</h1>
         <div className={styles.wrapcardss5}>
           <div className={styles.cards5}>
-            <p></p>
+            <p>A guerra devastou a economia palestina e gerou queda de produção, inflação e desemprego. Em Israel, aumentou os gastos, reduziu setores como turismo e criou incertezas econômicas. No geral, o conflito elevou custos, destruiu infraestrutura e prejudicou o crescimento dos dois lados.</p>
           </div>
           <div className={styles.cards5}>
-            <p></p>
-          </div>
-          <div className={styles.cards5}>
-            <p></p>
+            <p>A guerra gerou falta de comida, água, remédios e abrigo, deixando grande parte da população deslocada e dependente de ajuda. Hospitais e serviços básicos colapsaram, criando uma das crises humanitárias mais graves da região.</p>
           </div>
         </div>
       </section>     
 
       <section id = "s6" className={styles.s6}>
-        <div>
-         
-
+        <div className={styles.fonte}>
+            <p>Um passarinho me contou</p>
+            <img src={passaroImg} alt="passaro" />
         </div>
       </section>
-
-
     </main>
     </>
   )
