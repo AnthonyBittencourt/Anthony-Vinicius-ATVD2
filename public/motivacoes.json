@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "motivo1": "Existência e Segurança: O principal objetivo de Israel é garantir sua existência como um Estado judeu soberano e independente e assegurar a segurança de seu povo diante das ameaças percebidas de grupos militantes e nações vizinhas.",
+        "motivo2": "Destruição de Capacidades Militantes: Em conflitos atuais, como o de Gaza, Israel visa especificamente destruir as capacidades militares e governamentais de grupos como o Hamas e a Jihad Islâmica, e recuperar reféns feitos por esses grupos.",
+        "motivo3": "Controle Territorial e Fronteiras: Israel busca manter o controle sobre Jerusalém Oriental (que reivindica como sua capital indivisível) e, para alguns setores políticos, manter ou expandir assentamentos na Cisjordânia, além de garantir fronteiras seguras e reconhecidas internacionalmente.",
+        "motivo4": "Reconhecimento: Israel exige o reconhecimento de seu direito de existir como um Estado judeu por parte dos palestinos e de todos os países árabes."
+    },
+    {
+        "id": "2",
+        "motivo1": "Autodeterminação e Estado Independente: O objetivo central da maioria dos palestinos é o estabelecimento de um Estado palestino independente e soberano na Cisjordânia, Faixa de Gaza e Jerusalém Oriental, com Jerusalém Oriental como sua capital.",
+        "motivo2": "Fim da Ocupação: Eles buscam o fim da ocupação israelense dos territórios palestinos que começou em 1967 e a suspensão da construção de assentamentos israelenses.",
+        "motivo3": "Direito de Retorno: Uma reivindicação crucial é o direito de retorno para os milhões de refugiados palestinos que fugiram ou foram expulsos de suas casas durante a guerra de 1948 (conhecida como Nakba) e conflitos subsequentes.",
+        "motivo4": "Reconhecimento e Direitos Humanos: Os palestinos buscam reconhecimento internacional de seus direitos humanos e nacionais, incluindo o fim das restrições de movimento, bloqueios e outras medidas que afetam negativamente suas vidas diárias."
+    }
+]
