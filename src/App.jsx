@@ -84,7 +84,7 @@ function App() {
       <section id='s4' className={styles.s4}>
         <div className={styles.wrapcardss4}>
           <div className={styles.cardS4}>
-            <img className={styles.cardIMG} src={acordoQuebrado} alt='acordo'/>
+            <img width={620} className={styles.cardIMG} src={acordoQuebrado} alt='acordo'/>
             <h2>Apesar dos acordos de cessar-fogo mediados por países como Estados Unidos, Egito e Catar, os confrontos e bombardeios persistem. Israel retomou ataques em Gaza após acusar o Hamas de violar a trégua e atrasar a devolução de restos mortais de reféns, enquanto o Hamas nega as acusações e responsabiliza Israel pelo bloqueio da ajuda humanitária.</h2>
           </div>
           <div className={styles.cardS4}>
